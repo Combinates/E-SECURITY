@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Background Shield -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M20,20 L180,20 L180,120 Q180,180 100,200 Q20,180 20,120 Z" />
+
+    <!-- E-Bars -->
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M50,40 L150,40 L150,70 L50,70 Z" />
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M50,80 L150,80 L150,110 L50,110 Z" />
+
+    <!-- Vertical Red Bar -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M50,40 L80,40 L80,110 L50,110 Z" />
+
+    <!-- Bottom Gold Area -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M50,120 L150,120 L150,140 Q150,160 100,170 Q50,160 50,140 Z" />
+</vector>
